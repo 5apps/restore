@@ -11,7 +11,7 @@ var store   = new reStore.Redis({
 
 var server  = new reStore({
 		store:  store,
-    http:   { port: 80 },
+    http:   { port: 8080 },
     allow:  {
       signup: true,
       debug: true
